@@ -1,0 +1,33 @@
+{
+  "name": "4-8",
+  "version": "1.0.0",
+  "description": "This is a assignment using ES6, Jasmine, Karma, Protractor and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehalahmad/jasmin-karma-protractor.git"
+  },
+  "keywords": [
+    "Jamine",
+    "Karma",
+    "Protractor",
+    "and",
+    "TypeScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehalahmad/jasmin-karma-protractor/issues"
+  },
+  "homepage": "https://github.com/nehalahmad/jasmin-karma-protractor#readme",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "dependencies": {
+    "jasmine-reporters": "^2.3.2",
+    "protractor": "^7.0.0"
+  }
+}

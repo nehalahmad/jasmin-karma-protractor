@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>:: Login ::</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body class="text-center">
+    <form
+      class="form-signin"
+      onsubmit="loginHandler(); return false;"
+      name="signinForm"
+    >
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <label for="inputUser" class="sr-only">Username</label>
+      <input
+        type="text"
+        id="inputUser"
+        class="form-control"
+        placeholder="Username"
+        required
+        autofocus
+        name="username"
+      />
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input
+        type="password"
+        id="inputPassword"
+        class="form-control"
+        placeholder="Password"
+        required
+        name="password"
+      />
+      <button class="btn btn-lg btn-primary btn-block" type="submit" id="loginBtn">
+        Sign in
+      </button>
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./src/App.js"></script>
+  </body>
+</html>
