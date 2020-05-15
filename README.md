@@ -1,8 +1,8 @@
 # NPM module dependencies
-To run application in localhost - # 'http-server'\n
-To generate report of integration testing - # 'jasmine-reporters'\n
-To run integration test cases - # protractor\n
+To run application in localhost - 'http-server'. To generate report of integration testing - 'jasmine-reporters'.
+To run integration test cases - 'protractor'
 
+## Run all the below commands from the command propmt on the root directory
 To install all npm modules, run command -
 # npm i
 
@@ -11,7 +11,7 @@ Start http server -
 
 Strat Selenium server -
 # webdriver-manager update 
-and then\n
+and then - 
 # webdriver-manager start
 
 Run protractor test to test integration testing. 'conf.js' is configuration file for protractor. Protractor file is 'ProtractorSpecification.js'
