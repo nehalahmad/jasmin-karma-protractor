@@ -4,7 +4,7 @@
   "description": "This is a assignment using ES6, Jasmine, Karma, Protractor and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,8 @@
     "url": "https://github.com/nehalahmad/jasmin-karma-protractor/issues"
   },
   "homepage": "https://github.com/nehalahmad/jasmin-karma-protractor#readme",
-  "devDependencies": {
-    "jasmine": "^3.5.0"
-  },
   "dependencies": {
+    "http-server": "^0.12.3",
     "jasmine-reporters": "^2.3.2",
     "protractor": "^7.0.0"
   }
