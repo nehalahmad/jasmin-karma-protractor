@@ -1,4 +1,7 @@
-// An example configuration file.
+/**
+ * Filename: conf.js
+ * Description: This file contains require configs to run Protractor
+ */
 exports.config = {
   directConnect: true,
 
