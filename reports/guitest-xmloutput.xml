@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="4" time="3.628">
- <testsuite name="Login page" timestamp="2020-05-17T18:10:39" hostname="localhost" time="3.04" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Login page" name="should render login page" time="2.511" />
+<testsuites disabled="0" errors="0" failures="0" tests="4" time="3.523">
+ <testsuite name="Login page" timestamp="2020-05-17T18:23:46" hostname="localhost" time="2.947" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Login page" name="should render login page" time="2.421" />
  </testsuite>
- <testsuite name="Login page.Login success or fail" timestamp="2020-05-17T18:10:42" hostname="localhost" time="0.528" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Login page.Login success or fail" name="login success" time="0.347" />
-  <testcase classname="Login page.Login success or fail" name="login failed" time="0.181" />
+ <testsuite name="Login page.Login success or fail" timestamp="2020-05-17T18:23:49" hostname="localhost" time="0.525" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="Login page.Login success or fail" name="login success" time="0.349" />
+  <testcase classname="Login page.Login success or fail" name="login failed" time="0.175" />
  </testsuite>
- <testsuite name="Dashboard page" timestamp="2020-05-17T18:10:42" hostname="localhost" time="0.06" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Dashboard page" name="login should be protractor previous page" time="0.06" />
+ <testsuite name="Dashboard page" timestamp="2020-05-17T18:23:49" hostname="localhost" time="0.051" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Dashboard page" name="login should be protractor previous page" time="0.051" />
  </testsuite>
 </testsuites>
