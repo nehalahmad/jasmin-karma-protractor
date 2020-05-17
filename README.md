@@ -21,6 +21,6 @@ Run protractor test to test integration testing. 'conf.js' is configuration file
 ### Protractor conf.js
 
 To test unit test cases access SpecRunner.html from localhost
-### http://localhost:8080/SpecRunner.html
+### http://localhost:8080/specRunner.html
 
 ### Note: If face any permission issue while running these commands using vs code terminal, then run these commands using CMD terminal.
