@@ -25,7 +25,7 @@
   "homepage": "https://github.com/nehalahmad/jasmin-karma-protractor#readme",
   "dependencies": {
     "http-server": "^0.12.3",
-    "jasmine-reporters": "^2.3.2",
+    "jasmine-reporters": "^2.5.0",
     "protractor": "^7.0.0"
   }
 }
